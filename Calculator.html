@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <h1>Simple Calculator</h1> <br>
+    <form action = "Calculator.php" method ="get">
+        <input type = "number" name = "input1" placeholder ="Enter First Number" required>
+        <input type = "number" name = "input2" placeholder = "Enter Second Number" required> <br>
+        <input type = "radio" id ="add" name = "operation" value = "add"> <label>add</label>
+        <input type = "radio" id ="subtract" name = "operation" value = "subtract"> <label>subtract</label>
+        <input type = "radio" id ="divide" name = "operation" value = "divide"> <label>divide</label>
+        <input type = "radio" id ="multiply" name = "operation" value = "multiply"> <label>multiply</label> <br>
+        <input type ="submit" value ="Calculate">
+    </form>
+</body>
+</html>
